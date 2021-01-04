@@ -6,6 +6,7 @@ public class Main {
 	public static void main(String[] args)
 	{
 		final Gson gson = new Gson();
+		
 		// original object instantiation
 		ModelObject modelObject = new ModelObject("myname", 12, true, 2.3);
 		System.out.println("toJson ---");
